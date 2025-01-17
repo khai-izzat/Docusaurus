@@ -1,2 +1,2 @@
-# Docusaurus
+# Centasaurus
 Repo to test docusaurus
