@@ -1,0 +1,9 @@
+{
+  "label": "Testing Pages",
+  "position": 4
+,
+  "link": {
+    "type": "generated-index",
+    "description": "Testing pages"
+  }
+}
