@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcentasaurus=self.webpackChunkcentasaurus||[]).push([[1722],{5652:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/Centasaurus/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
