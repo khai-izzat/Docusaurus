@@ -76,9 +76,9 @@ const config = {
       'docusaurus-plugin-remote-content',
       {
         name: 'remote-content', // Name of the plugin
-        sourceBaseUrl: 'https://raw.githubusercontent.com/khai-izzat/centasaurus/main/', // Base URL for raw GitHub content
+        sourceBaseUrl: 'https://raw.githubusercontent.com/khai-izzat/LibraryofMD/main/', // Base URL for raw GitHub content
         outDir: 'docs/remote', // Output directory for fetched content
-        documents: ['README.md', 'docs/intro.md', 'docs/api.md'], // Files to fetch
+        documents: ["README.md", "counting.md", "letter.md"], // Files to fetch
       },
     ],
   ],
