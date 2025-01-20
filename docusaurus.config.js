@@ -75,13 +75,25 @@ const config = {
     [
       'docusaurus-plugin-remote-content',
       {
-        name: 'remote-content', // Name of the plugin
-        sourceBaseUrl: 'https://raw.githubusercontent.com/khai-izzat/LibraryofMD/main/', // Base URL for raw GitHub content
-        outDir: 'docs/remote', // Output directory for fetched content
-        documents: ["README.md", "counting.md", "letter.md"], // Files to fetch
+        name: 'remote-LibraryofMD-content', // Name of the plugin
+        sourceBaseUrl:
+          'https://raw.githubusercontent.com/khai-izzat/LibraryofMD/main/',// Base URL for raw GitHub content
+        outDir: 'docs/remote/Library-of-MD', // Output directory for fetched content
+        documents: ["README.md","counting.md", "letter.md"],// Files to fetch
       },
     ],
+    [
+      'docusaurus-plugin-remote-content',
+      {
+        name: 'remote-Centagate-Introduction-content', // Name of the plugin
+        sourceBaseUrl:'https://raw.githubusercontent.com/khai-izzat/Centagate-Introduction/main/',//Base URL for raw GitHub content
+        outDir: 'docs/remote/Centagate-Introduction', // Output directory for fetched content
+        documents: ["README.md", "CentagateCloud.md", "PricingPlan.md"],// Files to fetch
+      },
+    ]
   ],
+
+  
 
 
   themeConfig:
