@@ -2,40 +2,37 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+---
+
 ### Installation
 
-```
-$ yarn
+To install dependencies, use the following command:
+
+```bash
+$ npm install
 ```
 
 ### Local Development
 
+```bash
+$ npm run start
 ```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ### Build
 
+```bash
+$ npm run build
+$ npm run serve
 ```
-$ yarn build
-```
+### Update and Rebuild Content
+To fetch and update the latest content from the LibraryofMD and CentagateIntroduction repositories, follow these steps:
+Run the following command to pull the latest updates and rebuild the site:
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+$ node rebuild.js
 ```
 
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This will:
+Fetch the latest Markdown files from the linked repositories.
+Clear the previous build and cache.
+Rebuild the Docusaurus site with the updated content.
